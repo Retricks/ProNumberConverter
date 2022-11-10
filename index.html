@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>ProNumberConverter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ProNumberConverter</h1>
+        <div class="input">
+            <label for="number">Wpisz liczbę do przekształcenia:</label>
+            <input type="text" name="number" id="number">
+            <h2 id="result">Wynik: </h2>
+        </div>
+        <div class="buttons">
+            <div class="decimals">
+                <button onclick="change(2, 10)">Dziesiętna na binarną</button>
+                <button onclick="change(8, 10)">Dziesiętna na ósemkową</button>
+                <button onclick="change(16, 10)">Dziesiętna na szesnastkową</button>
+            </div>
+            <div class="todecimals">
+                <button onclick="change(10, 2)">Binarna na dziesiętną</button>
+                <button onclick="change(10, 8)">Ósemkowa na dziesiętną</button>
+                <button onclick="change(10, 16)">Szesnastkowa na dziesiętną</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

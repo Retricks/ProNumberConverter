@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(49, 12, 31);
+}
+.input label{
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.input #number{
+    height: 2rem;
+    font-size: 1.25rem;
+}
+h1{
+    margin: 0;
+    font-size: 3rem;
+}
+h2{
+    margin: 0;
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+}
+.container{
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+    gap: 2rem;
+}
+
+button{
+    cursor: pointer;
+    border: 0;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: rgb(49, 12, 31);
+    padding: 1rem 0.75rem;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}

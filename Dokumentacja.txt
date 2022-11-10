@@ -1,0 +1,18 @@
+Nazwa aplikacji: ProNumberConverter
+Wersja aplikacji: v0.0.1 alpha
+Autor aplikacji: Kamil Langer
+Języki programoania: HTML, CSS, JavaScript
+Wymagania: Obsługa JavaScript przez przeglądarkę
+Przeznaczenie: Konwertowanie systemów liczbowych przez użytkownika
+
+Instrukcja obsługi:
+1. Aby rozpocząć należy wpisać do pola tekstowego liczbę, którą użytkownik chce przekonwertować
+2. Kliknąć wybrany format do przekonwertowania (liczba musi spełniać warunki danego formatu)
+3. Przekonwertowana liczba zostaje wypisana, a w przypadku niepoprawnej liczby wyskakuje komunikat "Wpisz poprawną liczbę"
+4. Po wypisaniu liczby można ponownie wpisywać wartości i konwertować liczby
+
+Aplikacja będzie rozbudowywana w kwestii:
+1. Oprawy graficznej
+2. Funkcjonalności
+
+Prawa autorskie: brak, OpenSource
